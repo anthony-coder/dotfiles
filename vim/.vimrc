@@ -31,7 +31,7 @@ au BufNewFile,BufRead *.py
     \ set autoindent    |
     \ set fileformat=unix
 
-
+au BufNewFile,BufRead *.md setlocal textwidth=80
 " ...
 
 " All of your Plugins must be added before the following line
